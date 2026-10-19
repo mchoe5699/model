@@ -1,7 +1,127 @@
 {
-  "parent": "qwertys_model:block/door_camera_base",
+  "loader": "forge:obj",
+  "model": "qwertys_model:models/block/ht100_door_camera.obj",
+  "flip_v": true,
+  "shade_quads": true,
+  "emissive_ambient": true,
+  "automatic_culling": true,
+  "render_type": "minecraft:cutout",
+  "ambientocclusion": false,
   "textures": {
-    "front": "qwertys_model:block/ht100_door_camera_front_ir",
-    "side": "qwertys_model:block/ht100_door_camera_side"
+    "particle": "qwertys_model:block/ht100_door_camera_body",
+    "base": "qwertys_model:block/ht100_door_camera_base",
+    "body": "qwertys_model:block/ht100_door_camera_body",
+    "slot": "qwertys_model:block/ht100_door_camera_slot",
+    "window_wall": "qwertys_model:block/ht100_door_camera_window_wall",
+    "insert": "qwertys_model:block/ht100_door_camera_insert_ir",
+    "lens_ring": "qwertys_model:block/ht100_door_camera_lens_ring",
+    "lens_glass": "qwertys_model:block/ht100_door_camera_lens_glass",
+    "button": "qwertys_model:block/ht100_door_camera_button",
+    "tab": "qwertys_model:block/ht100_door_camera_tab",
+    "decal": "qwertys_model:block/ht100_door_camera_decal"
+  },
+  "display": {
+    "gui": {
+      "rotation": [
+        20,
+        200,
+        0
+      ],
+      "translation": [
+        0.5,
+        0,
+        0
+      ],
+      "scale": [
+        0.95,
+        0.95,
+        0.95
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        -6
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        13,
+        7
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
   }
 }
