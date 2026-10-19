@@ -5,12 +5,26 @@ Ks 0.0 0.0 0.0
 d 1.0
 map_Kd #base
 
+newmtl base_side
+Ka 1.0 1.0 1.0
+Kd 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+d 1.0
+map_Kd #base_side
+
 newmtl body
 Ka 1.0 1.0 1.0
 Kd 1.0 1.0 1.0
 Ks 0.0 0.0 0.0
 d 1.0
 map_Kd #body
+
+newmtl body_side
+Ka 1.0 1.0 1.0
+Kd 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+d 1.0
+map_Kd #body_side
 
 newmtl slot
 Ka 1.0 1.0 1.0
@@ -33,6 +47,27 @@ Ks 0.0 0.0 0.0
 d 1.0
 map_Kd #insert
 
+newmtl glass
+Ka 1.0 1.0 1.0
+Kd 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+d 1.0
+map_Kd #glass
+
+newmtl ir_led
+Ka 1.0 1.0 1.0
+Kd 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+d 1.0
+map_Kd #ir_led
+
+newmtl lens_bezel
+Ka 1.0 1.0 1.0
+Kd 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+d 1.0
+map_Kd #lens_bezel
+
 newmtl lens_ring
 Ka 1.0 1.0 1.0
 Kd 1.0 1.0 1.0
@@ -53,6 +88,13 @@ Kd 1.0 1.0 1.0
 Ks 0.0 0.0 0.0
 d 1.0
 map_Kd #button
+
+newmtl led
+Ka 1.0 1.0 1.0
+Kd 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+d 1.0
+map_Kd #led
 
 newmtl tab
 Ka 1.0 1.0 1.0

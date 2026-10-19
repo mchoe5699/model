@@ -10,32 +10,38 @@
   "textures": {
     "particle": "qwertys_model:block/ht100_door_camera_aged_body",
     "base": "qwertys_model:block/ht100_door_camera_aged_base",
+    "base_side": "qwertys_model:block/ht100_door_camera_aged_base_side",
     "body": "qwertys_model:block/ht100_door_camera_aged_body",
+    "body_side": "qwertys_model:block/ht100_door_camera_aged_body_side",
     "slot": "qwertys_model:block/ht100_door_camera_slot",
     "window_wall": "qwertys_model:block/ht100_door_camera_window_wall",
-    "insert": "qwertys_model:block/ht100_door_camera_aged_insert_ir",
+    "insert": "qwertys_model:block/ht100_door_camera_aged_insert",
+    "glass": "qwertys_model:block/ht100_door_camera_aged_glass_ir",
+    "ir_led": "qwertys_model:block/ht100_door_camera_ir_led_on",
+    "lens_bezel": "qwertys_model:block/ht100_door_camera_lens_bezel",
     "lens_ring": "qwertys_model:block/ht100_door_camera_lens_ring",
     "lens_glass": "qwertys_model:block/ht100_door_camera_lens_glass",
-    "button": "qwertys_model:block/ht100_door_camera_aged_button_lit",
+    "button": "qwertys_model:block/ht100_door_camera_aged_button",
+    "led": "qwertys_model:block/ht100_door_camera_led_on",
     "tab": "qwertys_model:block/ht100_door_camera_tab",
     "decal": "qwertys_model:block/ht100_door_camera_aged_decal"
   },
   "display": {
     "gui": {
       "rotation": [
-        20,
+        15,
         200,
         0
       ],
       "translation": [
-        0.5,
-        0,
-        0
+        9.325,
+        -6.631,
+        24.747
       ],
       "scale": [
-        0.95,
-        0.95,
-        0.95
+        3.6,
+        3.6,
+        3.6
       ]
     },
     "fixed": {
@@ -45,14 +51,14 @@
         0
       ],
       "translation": [
-        0,
-        0,
-        -6
+        -0.0,
+        0.0,
+        22.72
       ],
       "scale": [
-        1,
-        1,
-        1
+        3.0,
+        3.0,
+        3.0
       ]
     },
     "ground": {
@@ -62,14 +68,14 @@
         0
       ],
       "translation": [
-        0,
-        3,
-        0
+        0.0,
+        2.0,
+        -12.117
       ],
       "scale": [
-        0.4,
-        0.4,
-        0.4
+        1.6,
+        1.6,
+        1.6
       ]
     },
     "head": {
@@ -79,48 +85,82 @@
         0
       ],
       "translation": [
-        0,
-        13,
-        7
+        -0.0,
+        6.0,
+        15.147
       ],
       "scale": [
-        1,
-        1,
-        1
+        2.0,
+        2.0,
+        2.0
       ]
     },
     "thirdperson_righthand": {
       "rotation": [
-        75,
-        225,
+        10,
+        200,
         0
       ],
       "translation": [
-        0,
-        2.5,
-        0
+        4.144,
+        0.023,
+        12.214
       ],
       "scale": [
-        0.375,
-        0.375,
-        0.375
+        1.6,
+        1.6,
+        1.6
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        10,
+        200,
+        0
+      ],
+      "translation": [
+        4.144,
+        0.023,
+        12.214
+      ],
+      "scale": [
+        1.6,
+        1.6,
+        1.6
       ]
     },
     "firstperson_righthand": {
       "rotation": [
         0,
-        225,
+        200,
         0
       ],
       "translation": [
-        0,
-        0,
-        0
+        5.662,
+        3.0,
+        12.81
       ],
       "scale": [
-        0.4,
-        0.4,
-        0.4
+        1.8,
+        1.8,
+        1.8
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        200,
+        0
+      ],
+      "translation": [
+        5.662,
+        3.0,
+        12.81
+      ],
+      "scale": [
+        1.8,
+        1.8,
+        1.8
       ]
     }
   }

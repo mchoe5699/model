@@ -51,14 +51,15 @@ def load(model_name):
 
 def render(model_name, yaw, pitch, size=700, zoom=1.0):
     v, vt, faces, tex, flip = load(model_name)
-    c = np.array([0.5, 0.5, 0.85])
+    c = (v.min(0) + v.max(0)) / 2
+    ext = float((v.max(0) - v.min(0)).max())
     ry, rx = math.radians(yaw), math.radians(pitch)
     Ry = np.array([[math.cos(ry), 0, math.sin(ry)], [0, 1, 0], [-math.sin(ry), 0, math.cos(ry)]])
     Rx = np.array([[1, 0, 0], [0, math.cos(rx), -math.sin(rx)], [0, math.sin(rx), math.cos(rx)]])
     R = Rx @ Ry
     # camera looks along +z toward the device front (device faces -z / north)
     P = (v - c) @ R.T
-    scale = size * 0.95 * zoom
+    scale = size * 0.8 / ext * zoom
     sx = size / 2 - P[:, 0] * scale        # mirror x so north face reads correctly
     sy = size / 2 - P[:, 1] * scale
     depth = P[:, 2]

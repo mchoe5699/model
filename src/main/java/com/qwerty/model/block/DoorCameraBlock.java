@@ -45,11 +45,11 @@ public class DoorCameraBlock extends HorizontalDirectionalBlock {
     public static final IntegerProperty CALL = IntegerProperty.create("call", 0, 2);
     public static final BooleanProperty LIT = BlockStateProperties.LIT;
 
-    // matches the OBJ mesh: 10 x 13.2 px body, ~3.9 px deep including the camera hood
-    private static final VoxelShape SHAPE_NORTH = Block.box(3.0D, 1.25D, 12.0D, 13.0D, 14.6D, 16.0D);
-    private static final VoxelShape SHAPE_SOUTH = Block.box(3.0D, 1.25D, 0.0D, 13.0D, 14.6D, 4.0D);
-    private static final VoxelShape SHAPE_EAST = Block.box(0.0D, 1.25D, 3.0D, 4.0D, 14.6D, 13.0D);
-    private static final VoxelShape SHAPE_WEST = Block.box(12.0D, 1.25D, 3.0D, 16.0D, 14.6D, 13.0D);
+    // matches the OBJ mesh: real size 0.2 block tall (3.2 px), 2.45 px wide, 0.85 px deep, centred on the wall face
+    private static final VoxelShape SHAPE_NORTH = Block.box(6.75D, 6.35D, 15.1D, 9.25D, 9.65D, 16.0D);
+    private static final VoxelShape SHAPE_SOUTH = Block.box(6.75D, 6.35D, 0.0D, 9.25D, 9.65D, 0.9D);
+    private static final VoxelShape SHAPE_EAST = Block.box(0.0D, 6.35D, 6.75D, 0.9D, 9.65D, 9.25D);
+    private static final VoxelShape SHAPE_WEST = Block.box(15.1D, 6.35D, 6.75D, 16.0D, 9.65D, 9.25D);
 
     private static final int DING_TO_DONG_TICKS = 8;
     private static final int DONG_TO_RELEASE_TICKS = 24;
@@ -158,7 +158,7 @@ public class DoorCameraBlock extends HorizontalDirectionalBlock {
         double lz = hitLocation.z - (pos.getZ() + 0.5D);
         double across = (lx * right.getStepX() + lz * right.getStepZ()) * 16.0D; // px from centre toward viewer's right
         double up = (hitLocation.y - pos.getY()) * 16.0D;
-        return across >= 1.0D && across <= 4.25D && up >= 2.4D && up <= 5.8D;
+        return across >= 0.2D && across <= 1.1D && up >= 6.6D && up <= 7.5D;
     }
 
     private static void chime(Level level, BlockPos pos, float pitch) {
