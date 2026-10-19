@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    { "item": "qwertys_model:ht100_door_camera" },
+    { "item": "minecraft:dirt" }
+  ],
+  "result": { "item": "qwertys_model:ht100_door_camera_aged", "count": 1 }
+}

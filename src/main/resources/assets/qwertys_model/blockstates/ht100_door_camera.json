@@ -1,0 +1,94 @@
+{
+  "variants": {
+    "call=0,facing=north,lit=false": {
+      "model": "qwertys_model:block/ht100_door_camera"
+    },
+    "call=0,facing=north,lit=true": {
+      "model": "qwertys_model:block/ht100_door_camera_ir"
+    },
+    "call=1,facing=north,lit=false": {
+      "model": "qwertys_model:block/ht100_door_camera_call"
+    },
+    "call=1,facing=north,lit=true": {
+      "model": "qwertys_model:block/ht100_door_camera_ir_call"
+    },
+    "call=2,facing=north,lit=false": {
+      "model": "qwertys_model:block/ht100_door_camera_call"
+    },
+    "call=2,facing=north,lit=true": {
+      "model": "qwertys_model:block/ht100_door_camera_ir_call"
+    },
+    "call=0,facing=east,lit=false": {
+      "model": "qwertys_model:block/ht100_door_camera",
+      "y": 90
+    },
+    "call=0,facing=east,lit=true": {
+      "model": "qwertys_model:block/ht100_door_camera_ir",
+      "y": 90
+    },
+    "call=1,facing=east,lit=false": {
+      "model": "qwertys_model:block/ht100_door_camera_call",
+      "y": 90
+    },
+    "call=1,facing=east,lit=true": {
+      "model": "qwertys_model:block/ht100_door_camera_ir_call",
+      "y": 90
+    },
+    "call=2,facing=east,lit=false": {
+      "model": "qwertys_model:block/ht100_door_camera_call",
+      "y": 90
+    },
+    "call=2,facing=east,lit=true": {
+      "model": "qwertys_model:block/ht100_door_camera_ir_call",
+      "y": 90
+    },
+    "call=0,facing=south,lit=false": {
+      "model": "qwertys_model:block/ht100_door_camera",
+      "y": 180
+    },
+    "call=0,facing=south,lit=true": {
+      "model": "qwertys_model:block/ht100_door_camera_ir",
+      "y": 180
+    },
+    "call=1,facing=south,lit=false": {
+      "model": "qwertys_model:block/ht100_door_camera_call",
+      "y": 180
+    },
+    "call=1,facing=south,lit=true": {
+      "model": "qwertys_model:block/ht100_door_camera_ir_call",
+      "y": 180
+    },
+    "call=2,facing=south,lit=false": {
+      "model": "qwertys_model:block/ht100_door_camera_call",
+      "y": 180
+    },
+    "call=2,facing=south,lit=true": {
+      "model": "qwertys_model:block/ht100_door_camera_ir_call",
+      "y": 180
+    },
+    "call=0,facing=west,lit=false": {
+      "model": "qwertys_model:block/ht100_door_camera",
+      "y": 270
+    },
+    "call=0,facing=west,lit=true": {
+      "model": "qwertys_model:block/ht100_door_camera_ir",
+      "y": 270
+    },
+    "call=1,facing=west,lit=false": {
+      "model": "qwertys_model:block/ht100_door_camera_call",
+      "y": 270
+    },
+    "call=1,facing=west,lit=true": {
+      "model": "qwertys_model:block/ht100_door_camera_ir_call",
+      "y": 270
+    },
+    "call=2,facing=west,lit=false": {
+      "model": "qwertys_model:block/ht100_door_camera_call",
+      "y": 270
+    },
+    "call=2,facing=west,lit=true": {
+      "model": "qwertys_model:block/ht100_door_camera_ir_call",
+      "y": 270
+    }
+  }
+}

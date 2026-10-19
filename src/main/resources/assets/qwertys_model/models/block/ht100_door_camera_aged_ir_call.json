@@ -1,0 +1,7 @@
+{
+  "parent": "qwertys_model:block/door_camera_base",
+  "textures": {
+    "front": "qwertys_model:block/ht100_door_camera_aged_front_ir_call",
+    "side": "qwertys_model:block/ht100_door_camera_aged_side"
+  }
+}

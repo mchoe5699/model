@@ -1,0 +1,8 @@
+{
+  "itemGroup.qwertys_model": "QWERTY's Model",
+  "block.qwertys_model.ht100_door_camera": "HT-100 도어카메라",
+  "block.qwertys_model.ht100_door_camera_aged": "HT-100 도어카메라 (철거품)",
+  "message.qwertys_model.door_camera.call": "띵동~ 호출했습니다",
+  "message.qwertys_model.door_camera.ir_on": "야간 적외선 LED 켜짐",
+  "message.qwertys_model.door_camera.ir_off": "야간 적외선 LED 꺼짐"
+}

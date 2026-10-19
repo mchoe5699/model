@@ -1,0 +1,8 @@
+{
+  "itemGroup.qwertys_model": "QWERTY's Model",
+  "block.qwertys_model.ht100_door_camera": "HT-100 Door Camera",
+  "block.qwertys_model.ht100_door_camera_aged": "HT-100 Door Camera (Aged)",
+  "message.qwertys_model.door_camera.call": "Ding-dong! Call sent",
+  "message.qwertys_model.door_camera.ir_on": "Night IR LEDs on",
+  "message.qwertys_model.door_camera.ir_off": "Night IR LEDs off"
+}
